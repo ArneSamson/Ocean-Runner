@@ -46,11 +46,12 @@ body{
     color: #000000;
 }
 
-/*lower the slides*/
+/*lower the sections*/
 .main{
-    margin-top:300px;
+    margin-top:200px;
 }
 
+/* section ZERO */
 #section0{
     display: flex;
     flex-direction:row;
@@ -63,12 +64,27 @@ body{
     padding-right: auto;
 }
 #section0 img{
-    display: block;
-    max-width:665px;
-    max-height:395px;
-    min-width: fit-content;
-    min-height: fit-content;
+    display: flex;
+    /* max-width:665px;
+    max-height:395px; */
+    flex-shrink: 2;
+    width: 45%;
+
 }
 #section0 h1{
+    font-size: 1.5em;
     color: #df9d8e;
+}
+#section1 ul li{
+    font-size: 1.3em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*section ONE*/
+#section1{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    height: 500px;
 }
